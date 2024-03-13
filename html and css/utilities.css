@@ -1,0 +1,95 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.stats h3 {
+  max-width: 500px;
+  margin: auto;
+}
+.stats {
+  padding-top: 100px;
+  text-align: center;
+  margin: 1rem 0;
+}
+.stats .grid {
+  grid-template-columns: repeat(3, 1fr);
+  padding: 50px 0;
+}
+.stats .grid p {
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.section .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.section .grid > *:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.section .card {
+  background-color: #fff;
+  min-width: 300px;
+  color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.cloud {
+  background-color: var(--pr-color);
+  text-align: center;
+  margin-top: 20px;
+}
+img {
+  width: 100%;
+}
+.cloud .btn {
+  color: #fff;
+  background-color: #000000;
+}
+#btn-dark {
+  position: relative;
+}
+.marg p {
+  margin-bottom: 20px;
+}
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
+}
+.last {
+  text-align: center;
+  margin-top: 50px;
+}
+.stats p {
+  margin: 10px 0;
+}
+.last .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.languages:hover {
+  transform: translateY(-15px);
+  transition-duration: 0.2s;
+}
+.footer {
+  background-color: rgb(4, 4, 75);
+  color: #fff;
+  height: 200px;
+  margin-top: 30px;
+}
+.footer a {
+  color: #fff;
+}
+.footer .grid {
+  grid-template-columns: repeat(3, 2fr);
+}
+.socials a {
+  margin: 0 10px;
+}
